@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.ipynb_checkpoints
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+
+# Jupyter Notebook metadata
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# MacOS and system files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# FAISS vectorstore (can be large binary files)
+*.faiss
+index.faiss
+index.pkl
+*.pkl
+
+# HuggingFace cache
+~/.cache/huggingface/
+~/.huggingface/
+
+# Kaggle API tokens
+kaggle.json
+
+# Environment and credentials
+.env
+.env.*
+secrets.toml
+config.yaml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
