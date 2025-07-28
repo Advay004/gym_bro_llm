@@ -1,0 +1,13 @@
+kagglehub
+pandas
+seaborn
+matplotlib
+langchain
+faiss-cpu
+sentence-transformers
+rapidfuzz
+spacy
+
+# Additional Streamlit requirements
+streamlit
+plotly

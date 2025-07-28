@@ -3,14 +3,14 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objects as go
+# import plotly.graph_objects as go
 import time
 from datetime import datetime
 
 # Import your custom modules
 try:
     from exercise_recommender import ExerciseRecommender
-    from visualizations import GymDataVisualizer
+    # from visualizations import GymDataVisualizer
     from data_processor import GymDataProcessor
     from config import VALID_MUSCLES
 except ImportError:
@@ -114,7 +114,7 @@ def display_exercise_card(exercise_text, index):
     """Display an exercise in a styled card format"""
     details = parse_exercise_details(exercise_text)
     
-    st.markdown('<div class="exercise-card">', unsafe_allow_html=True)
+    # st.markdown('<div class="exercise-card">', unsafe_allow_html=True)
     
     # Header with exercise name and key info
     col1, col2 = st.columns([3, 1])
