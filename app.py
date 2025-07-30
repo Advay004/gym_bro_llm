@@ -600,7 +600,11 @@ def search_history_page():
                 yaxis_title="Search Query"
             )
             st.plotly_chart(fig_popular, use_container_width=True)
-
+import os
+print("Files in current directory:")
+for file in os.listdir('.'):
+    if file.endswith('.py'):
+        print(f"  {file}")
 if __name__ == "__main__":
     main()
 
